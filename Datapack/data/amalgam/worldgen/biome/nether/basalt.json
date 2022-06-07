@@ -1,0 +1,96 @@
+{
+    "temperature": 2,
+    "downfall": 0,
+    "precipitation": "none",
+    "category": "nether",
+    "effects": {
+      "sky_color": 6901583,
+      "fog_color": 6840176,
+      "water_color": 5664374,
+      "water_fog_color": 7755350,
+      "grass_color": 6122582,
+      "foliage_color": 3492663,
+      "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+      "mood_sound": {
+        "sound": "minecraft:ambient.basalt_deltas.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.basalt_deltas.additions",
+        "tick_chance": 0.0111
+      },
+      "particle": {
+        "options": {
+          "type": "minecraft:white_ash"
+        },
+        "probability": 0.118093334
+      }
+    },
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:ghast",
+          "weight": 40,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:magma_cube",
+          "weight": 100,
+          "minCount": 2,
+          "maxCount": 5
+        }
+      ],
+      "creature": [
+        {
+          "type": "minecraft:strider",
+          "weight": 60,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ],
+      "ambient": [],
+      "axolotls": [],
+      "underground_water_creature": [],
+      "water_creature": [],
+      "water_ambient": [],
+      "misc": []
+    },
+    "spawn_costs": {},
+    "carvers": {
+      "air": "minecraft:nether_cave"
+    },
+    "features": [
+      [],
+      [],
+      [],
+      [],
+      [
+        "minecraft:delta",
+        "minecraft:small_basalt_columns",
+        "minecraft:large_basalt_columns"
+      ],
+      [],
+      [],
+      [
+        "minecraft:basalt_blobs",
+        "minecraft:blackstone_blobs",
+        "minecraft:spring_delta",
+        "minecraft:patch_fire",
+        "minecraft:patch_soul_fire",
+        "minecraft:glowstone_extra",
+        "minecraft:glowstone",
+        "minecraft:brown_mushroom_nether",
+        "minecraft:red_mushroom_nether",
+        "minecraft:ore_magma",
+        "minecraft:spring_closed_double",
+        "minecraft:ore_gold_deltas",
+        "minecraft:ore_quartz_deltas",
+        "minecraft:ore_ancient_debris_large",
+        "minecraft:ore_debris_small"
+      ]
+    ]
+  }
+  
