@@ -1,0 +1,39 @@
+{
+    "temperature": 0,
+    "downfall": 0.4,
+    "precipitation": "rain",
+    "category": "none",
+    "effects": {
+      "sky_color": 0,
+      "fog_color": 3881787,
+      "water_color": 5070464,
+      "water_fog_color": 1842225,
+      "grass_color": 5402955,
+      "foliage_color": 4279103,
+      "particle": {
+        "options": {
+          "type": "minecraft:ash"
+        },
+        "probability": 0.002
+      }
+    },
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:phantom",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    },
+    "spawn_costs": {
+      "minecraft:phantom": {
+        "energy_budget": 0.12,
+        "charge": 1
+      }
+    },
+    "carvers": {},
+    "features": []
+  }
+  

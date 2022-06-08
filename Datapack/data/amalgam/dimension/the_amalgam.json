@@ -1,0 +1,157 @@
+{
+  "type": "amalgam:amalgamated",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1,
+    "settings": "amalgam:amalgam",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "amalgam:void",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "amalgam:overworld/plains",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.5,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.4
+          }
+        },
+        {
+          "biome": "amalgam:overworld/forest",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 0.6,
+            "continentalness": 0.55,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "amalgam:overworld/savanna",
+          "parameters": {
+            "temperature": 0.7,
+            "humidity": 0.3,
+            "continentalness": 0.6,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.4
+          }
+        },
+        {
+          "biome": "amalgam:overworld/desert",
+          "parameters": {
+            "temperature": 0.9,
+            "humidity": 0,
+            "continentalness": 0.7,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "amalgam:nether/wastes",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0.5,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "amalgam:void",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "amalgam:nether/warped",
+          "parameters": {
+            "temperature": 1.2,
+            "humidity": 0.2,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "amalgam:nether/crimson",
+          "parameters": {
+            "temperature": 1.1,
+            "humidity": 0.2,
+            "continentalness": 0.2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "amalgam:nether/basalt",
+          "parameters": {
+            "temperature": 1.1,
+            "humidity": 0,
+            "continentalness": 0.4,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "amalgam:end/islands",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.9,
+            "erosion": 0,
+            "weirdness": 0.5,
+            "depth": 0,
+            "offset": 0.4
+          }
+        },
+        {
+          "biome": "amalgam:barren",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 1,
+            "depth": 0,
+            "offset": 1
+          }
+        }
+      ]
+    }
+  }
+}
