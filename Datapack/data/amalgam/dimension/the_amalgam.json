@@ -2,7 +2,6 @@
   "type": "amalgam:amalgamated",
   "generator": {
     "type": "minecraft:noise",
-    "seed": 1,
     "settings": "amalgam:amalgam",
     "biome_source": {
       "type": "minecraft:multi_noise",
