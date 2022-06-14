@@ -1,1 +1,52 @@
-ill edit this one day...
+# The Amalgam
+
+
+A datapack for Minecraft Java edition 1.19+
+
+### What is the Amalgam?
+> the In-between, the grey areas where you are not sure what dimension it is, the Amalgam exists.
+
+The goal for this pack is that vanilla Minecraft is just a race for Netherite and power. This pack changes it, it has more options than just one type of armour that is super overpowered and more gameplay as vanilla Minecraft is more focused on the construction and exploration aspect of the game, but this can become boring quickly. 
+
+```
+TL;DR
+This pack has many gameplay and it cool
+```
+
+
+<!--
+I'm bad a engrish so if someone could rephrase this to be better that would be great
+-->
+
+### Development
+
+There is not much more I can write about in the concept section as the pack is barely complete.
+
+In a nutshell the pack is adding the main biomes (imo) from all the dimensions in vanilla Minecraft and mashing them together in one dimension. Each "mashed dimension" will have one boss which will unlock a "sub-dimension", (a mini version of the dimension but with differences and is only about 500 blocks big with some loot and a challenge) which in turn unlocks 1-2 bosses that give rare and custom loot.
+
+##### To Do and Done:
+
+ - [x] Create and design main dimension
+ - [ ] Create Biomes *(in progress)*
+ - [ ] Design structures
+ - [ ] Create and design custom loot and items/blocks/weapons
+ - [ ] Create custom Mobs and Bosses
+ - [ ] Create 'Sub-Dimensions'
+ - [ ] Design subdimensions (more detail when I reach this section)
+ - [ ] Bugfixes and updates
+
+##### *this list will be evaluated more on when I reach each development section*
+
+<!--
+here is notes on how to do foldable sections
+
+```
+<details>
+<summary><b>My section header in bold</b></summary>
+
+Any folded content here. It requires an empty line just above it.
+
+</details>
+```
+
+-->
