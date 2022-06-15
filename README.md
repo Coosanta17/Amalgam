@@ -1,3 +1,4 @@
+
 # The Amalgam
 
 
@@ -15,7 +16,7 @@ This pack has many gameplay and it cool
 
 
 <!--
-I'm bad a engrish so if someone could rephrase this to be better that would be great
+If someone could rephrase this and add more info that would be good
 -->
 
 ### Development
@@ -26,16 +27,16 @@ In a nutshell the pack is adding the main biomes (imo) from all the dimensions i
 
 ##### To Do and Done:
 
- - [x] Create and design main dimension
- - [ ] Create Biomes *(in progress)*
- - [ ] Design structures
- - [ ] Create and design custom loot and items/blocks/weapons
- - [ ] Create custom Mobs and Bosses
- - [ ] Create 'Sub-Dimensions'
- - [ ] Design subdimensions (more detail when I reach this section)
- - [ ] Bugfixes and updates
+  ✔ Create and design main dimension
+  ▣ Create Biomes *(in progress)*
+  ✖ Design structures
+  ✖ Create and design custom loot and items/blocks/weapons
+  ✖ Create custom Mobs and Bosses
+  ✖ Create 'Sub-Dimensions'
+  ✖ Design subdimensions (more detail when I reach this section)
+  ✖ Bugfixes and updates
 
-##### *this list will be evaluated more on when I reach each development section*
+##### *this list will be evaluated when I reach each development section or have more ideas/better plan*
 
 <!--
 here is notes on how to do foldable sections
