@@ -38,7 +38,7 @@ In a nutshell the pack is adding the main biomes from all the dimensions in vani
   
   ✖ Bugfixes and updates
 
-##### *this list will be evaluated when I reach each development section or have more ideas/better plan*
+##### *this list will be evaluated when I reach each development section or have more ideas or a better plan*
 
 <!--
 here is notes on how to do foldable sections
