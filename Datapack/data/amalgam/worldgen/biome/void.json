@@ -33,5 +33,7 @@
     }
   },
   "carvers": {},
-  "features": []
+  "features": [
+    "minecraft:freeze_top_layer"
+  ]
 }

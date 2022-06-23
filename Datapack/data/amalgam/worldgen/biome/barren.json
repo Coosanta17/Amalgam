@@ -9,6 +9,12 @@
     "water_fog_color": 4934498,
     "grass_color": 7173484,
     "foliage_color": 4738375,
+    "mood_sound": {
+      "sound": "ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 17,
+      "offset": 0
+    },
     "particle": {
       "options": {
         "type": "minecraft:ash"
@@ -33,5 +39,8 @@
     }
   },
   "carvers": {},
-  "features": []
+  "features": [
+    "amalgam:barren_tree",
+    "minecraft:freeze_top_layer"
+  ]
 }

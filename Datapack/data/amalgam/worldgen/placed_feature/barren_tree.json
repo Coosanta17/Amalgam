@@ -1,0 +1,136 @@
+{
+  "feature": {
+    "type": "minecraft:tree",
+    "config": {
+      "force_dirt": false,
+      "minimum_size": {
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "dirt_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:stone"
+        }
+      },
+      "trunk_provider": {
+        "type": "minecraft:noise_provider",
+        "seed": 0,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            1,
+            1
+          ]
+        },
+        "scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:cobblestone"
+          },
+          {
+            "Name": "minecraft:cobblestone"
+          },
+          {
+            "Name": "minecraft:chiseled_stone_bricks"
+          },
+          {
+            "Name": "minecraft:mossy_cobblestone"
+          }
+        ]
+      },
+      "foliage_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:white_stained_glass_pane",
+              "Properties": {
+                "east": "true",
+                "north": "true",
+                "south": "true",
+                "waterlogged": "false",
+                "west": "true"
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:white_stained_glass"
+            }
+          }
+        ]
+      },
+      "trunk_placer": {
+        "type": "minecraft:fancy_trunk_placer",
+        "base_height": 5,
+        "height_rand_a": 2,
+        "height_rand_b": 0
+      },
+      "foliage_placer": {
+        "type": "minecraft:blob_foliage_placer",
+        "radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 5
+          }
+        },
+        "offset": 0,
+        "height": 4
+      },
+      "decorators": [
+        {
+          "type": "minecraft:trunk_vine"
+        },
+        {
+          "type": "minecraft:alter_ground",
+          "provider": {
+            "type": "minecraft:noise_provider",
+            "seed": 0,
+            "noise": {
+              "firstOctave": -4,
+              "amplitudes": [
+                1,
+                1
+              ]
+            },
+            "scale": 1,
+            "states": [
+              {
+                "Name": "minecraft:stone"
+              },
+              {
+                "Name": "minecraft:cobblestone"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 2
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    }
+  ]
+}
