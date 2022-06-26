@@ -39,8 +39,5 @@
     }
   },
   "carvers": {},
-  "features": [
-    "amalgam:barren_tree",
-    "minecraft:freeze_top_layer"
-  ]
+  "features": []
 }
