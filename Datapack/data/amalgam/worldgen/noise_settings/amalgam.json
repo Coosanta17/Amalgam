@@ -359,7 +359,11 @@
                                     "invert": {
                                       "type": "minecraft:not",
                                       "invert": {
-                                        "type": "minecraft:above_preliminary_surface"
+                                        "type": "minecraft:stone_depth",
+                                        "offset": 0,
+                                        "surface_type": "floor",
+                                        "add_surface_depth": false,
+                                        "secondary_depth_range": 0
                                       }
                                     }
                                   }
