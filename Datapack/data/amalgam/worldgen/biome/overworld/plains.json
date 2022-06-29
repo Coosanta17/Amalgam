@@ -145,7 +145,9 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [],
+    [
+      "amalgam:plains/cloud"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -159,10 +161,14 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "amalgam:plains/wow_tree",
+      "amalgam:plains/wow_tree_tall",
+      "amalgam:plains/omg_this_tree_looks_awsome_and_it_glows"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "amalgam:plains/glowing_star_crystals"
     ]
   ]
 }

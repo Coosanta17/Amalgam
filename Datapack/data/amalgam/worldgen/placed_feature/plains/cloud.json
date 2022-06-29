@@ -1,0 +1,30 @@
+{
+  "feature": "amalgam:plains/cloud",
+  "placement": [
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 12,
+      "noise_factor": 20,
+      "noise_offset": 0.15625
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": {
+          "absolute": 80
+        },
+        "max_inclusive": {
+          "absolute": 100
+        },
+        "inner": 2
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
