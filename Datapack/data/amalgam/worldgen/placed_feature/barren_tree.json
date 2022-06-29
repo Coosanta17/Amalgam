@@ -14,13 +14,16 @@
       },
       "trunk_provider": {
         "type": "minecraft:noise_provider",
-        "seed": 0,
+        "seed": 69,
         "noise": {
           "firstOctave": -7,
           "amplitudes": [
             1,
             1,
-            1
+            1,
+            1,
+            1,
+            2
           ]
         },
         "scale": 1,
@@ -43,28 +46,10 @@
         ]
       },
       "foliage_provider": {
-        "type": "minecraft:weighted_state_provider",
-        "entries": [
-          {
-            "weight": 1,
-            "data": {
-              "Name": "minecraft:white_stained_glass_pane",
-              "Properties": {
-                "east": "true",
-                "north": "true",
-                "south": "true",
-                "waterlogged": "false",
-                "west": "true"
-              }
-            }
-          },
-          {
-            "weight": 2,
-            "data": {
-              "Name": "minecraft:white_stained_glass"
-            }
-          }
-        ]
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
       },
       "trunk_placer": {
         "type": "minecraft:fancy_trunk_placer",

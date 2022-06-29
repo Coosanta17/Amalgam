@@ -32,6 +32,10 @@
       "charge": 1
     }
   },
-  "carvers": {},
+  "carvers": {
+    "air": [
+      "amalgam:void_carver"
+    ]
+  },
   "features": []
 }
