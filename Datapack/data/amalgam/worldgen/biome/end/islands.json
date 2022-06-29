@@ -12,6 +12,12 @@
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
+    },
+    "music": {
+      "sound": "music.end",
+      "min_delay": 18000,
+      "max_delay": 24000,
+      "replace_current_music": false
     }
   },
   "spawners": {
@@ -40,9 +46,7 @@
     ],
     [],
     [],
-    [
-      "minecraft:end_gateway_return"
-    ],
+    [],
     [],
     [],
     [],
