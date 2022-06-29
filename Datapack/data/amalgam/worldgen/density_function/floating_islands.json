@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:noise",
+  "noise": "amalgam:floating_landmass",
+  "xz_scale": 0.797564653104,
+  "y_scale": 0.25
+}
