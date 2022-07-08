@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:yellow_stained_glass"
+    },
+    "decor_state": {
+      "Name": "minecraft:ochre_froglight",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "stem_state": {
+      "Name": "minecraft:basalt",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "valid_base_block": {
+      "Name": "minecraft:stone"
+    },
+    "planted": false
+  }
+}

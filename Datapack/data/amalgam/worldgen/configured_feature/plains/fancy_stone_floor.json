@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:noise_provider",
+        "seed": 69,
+        "noise": {
+          "firstOctave": -2,
+          "amplitudes": [
+            1,
+            1
+          ]
+        },
+        "scale": 1,
+        "states": [
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:stone"
+          },
+          {
+            "Name": "minecraft:mossy_cobblestone"
+          },
+          {
+            "Name": "minecraft:cobblestone"
+          },
+          {
+            "Name": "minecraft:chiseled_stone_bricks"
+          },
+          {
+            "Name": "minecraft:mossy_stone_bricks"
+          },
+          {
+            "Name": "minecraft:stone_bricks"
+          }
+        ]
+      },
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:true"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 5
+      }
+    },
+    "half_height": 1
+  }
+}
