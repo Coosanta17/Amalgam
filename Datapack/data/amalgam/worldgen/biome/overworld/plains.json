@@ -164,11 +164,10 @@
       "minecraft:patch_pumpkin",
       "amalgam:plains/wow_tree",
       "amalgam:plains/fancy_stone_floor",
-      "amalgam:plains/omg_this_tree_looks_awsome_and_it_glows"
+      "amalgam:plains/good_looking_tree"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "amalgam:plains/glowing_star_crystals"
+      "minecraft:freeze_top_layer"
     ]
   ]
 }
