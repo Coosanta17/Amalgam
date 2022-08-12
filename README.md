@@ -18,7 +18,7 @@ If someone could rephrase this and add more info that would be good
 
 There is not much more I can write about in the concept section as the pack is barely complete.
 
-In a nutshell the pack is adding the main biomes from all the dimensions in vanilla Minecraft and mashing them together in one dimension. Each "mashed dimension" will have one boss which will unlock a "sub-dimension", (a mini version of the dimension but with differences and is only about 500 blocks big with some loot and a challenge) which in turn unlocks 1-2 bosses that give rare and custom loot.
+In a nutshell the pack is adding the main biomes from all the dimensions in vanilla Minecraft and amalgamating them together in one dimension. Each "amalgam dimension" will have one boss which will unlock a "sub-dimension", which I am still developing ideas for that.
 
 ##### To Do and Done:
 
