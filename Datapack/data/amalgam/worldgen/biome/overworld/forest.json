@@ -3,19 +3,31 @@
   "downfall": 0.8,
   "precipitation": "rain",
   "effects": {
-    "sky_color": 4556423,
-    "fog_color": 65531,
-    "water_color": 4159204,
+    "sky_color": 4556642,
+    "fog_color": 7906048,
+    "water_color": 4176612,
     "water_fog_color": 329011,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:totem_of_undying"
+      },
+      "probability": 0.001
     }
   },
   "spawners": {
     "monster": [
+      {
+        "type": "minecraft:vex",
+        "weight": 0,
+        "minCount": 0,
+        "maxCount": 1
+      },
       {
         "type": "minecraft:spider",
         "weight": 100,
@@ -118,7 +130,12 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs": {},
+  "spawn_costs": {
+    "minecraft:vex": {
+      "energy_budget": 0.12,
+      "charge": 1
+    }
+  },
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -144,7 +161,8 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "minecraft:ore_lapis"
     ],
     [],
     [
@@ -152,15 +170,20 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen",
-      "minecraft:forest_flowers",
-      "minecraft:trees_birch_and_oak",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
+      "minecraft:flower_swamp",
+      "minecraft:patch_grass_normal",
+      "minecraft:patch_dead_bush",
+      "minecraft:brown_mushroom_swamp",
+      "minecraft:red_mushroom_swamp",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_sugar_cane_swamp",
+      "minecraft:patch_melon",
+      "minecraft:seagrass_swamp",
+      "minecraft:patch_large_fern",
+      "minecraft:vines",
+      "minecraft:sea_pickle",
+      "amalgam:forest/fungus_tree"
     ],
     [
       "minecraft:freeze_top_layer"

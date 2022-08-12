@@ -1,25 +1,12 @@
 {
-  "type": "minecraft:disk",
+  "type": "minecraft:random_selector",
   "config": {
-    "state_provider": {
-      "fallback": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:powder_snow"
-        }
-      },
-      "rules": []
-    },
-    "target": {
-      "type": "minecraft:true"
-    },
-    "radius": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 3,
-        "max_inclusive": 6
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": "amalgam:plains/cloud_large"
       }
-    },
-    "half_height": 1
+    ],
+    "default": "amalgam:plains/cloud_normal"
   }
 }
