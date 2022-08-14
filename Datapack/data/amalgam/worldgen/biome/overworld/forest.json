@@ -183,7 +183,8 @@
       "minecraft:patch_large_fern",
       "minecraft:vines",
       "minecraft:sea_pickle",
-      "amalgam:forest/fungus_tree"
+      "amalgam:forest/fungus_tree",
+      "amalgam:forest/fancy_tree"
     ],
     [
       "minecraft:freeze_top_layer"
