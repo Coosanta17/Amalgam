@@ -1,9 +1,9 @@
 {
-  "feature": "amalgam:plains/good_looking_tree",
+  "feature": "amalgam:plains/fancy_cobble_floor",
   "placement": [
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 1,
+      "noise_to_count_ratio": 50,
       "noise_factor": 35,
       "noise_offset": 0.12
     },

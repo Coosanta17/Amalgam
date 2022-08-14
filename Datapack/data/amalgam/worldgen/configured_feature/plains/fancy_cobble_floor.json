@@ -5,16 +5,13 @@
       "Name": "minecraft:stone"
     },
     "target": {
-      "Name": "minecraft:grass_block",
-      "Properties": {
-        "snowy": "false"
-      }
+      "Name": "minecraft:cobblestone"
     },
     "radius": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 2,
-        "max_inclusive": 9
+        "min_inclusive": 0,
+        "max_inclusive": 3
       }
     }
   }

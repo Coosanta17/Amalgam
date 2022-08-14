@@ -3,13 +3,21 @@
   "config": {
     "max_empty_corners_allowed": 4,
     "fossil_structures": [
-      "amalgam:good_looking_tree/1",
-      "amalgam:good_looking_tree/2",
-      "amalgam:good_looking_tree/3",
-      "amalgam:good_looking_tree/4",
-      "amalgam:good_looking_tree/5"
+      "amalgam:forest/trees/good_looking/1",
+      "amalgam:forest/trees/good_looking/2",
+      "amalgam:forest/trees/good_looking/3",
+      "amalgam:forest/trees/good_looking/4",
+      "amalgam:forest/trees/good_looking/5",
+      "amalgam:forest/trees/good_looking/6"
     ],
-    "overlay_structures": [],
+    "overlay_structures": [
+      "amalgam:forest/trees/good_looking/1",
+      "amalgam:forest/trees/good_looking/2",
+      "amalgam:forest/trees/good_looking/3",
+      "amalgam:forest/trees/good_looking/4",
+      "amalgam:forest/trees/good_looking/5",
+      "amalgam:forest/trees/good_looking/6"
+    ],
     "fossil_processors": "minecraft:empty",
     "overlay_processors": "minecraft:empty"
   }

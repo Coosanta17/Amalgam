@@ -143,7 +143,8 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "amalgam:plains/fancy_stone_floor"
     ],
     [
       "amalgam:plains/cloud"
@@ -163,7 +164,7 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "amalgam:plains/wow_tree",
-      "amalgam:plains/fancy_stone_floor",
+      "amalgam:plains/fancy_cobble_floor",
       "amalgam:plains/good_looking_tree"
     ],
     [

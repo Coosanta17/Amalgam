@@ -37,5 +37,20 @@
       "amalgam:void_carver"
     ]
   },
-  "features": []
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "amalgam:unused/plains/cloud_normal",
+      "amalgam:unused/plains/cloud_large",
+      "amalgam:unused/plains/wow_tree/pearlescent",
+      "amalgam:unused/plains/wow_tree/verdant",
+      "amalgam:unused/plains/wow_tree/ocre"
+    ],
+    [],
+    []
+  ]
 }
