@@ -7,7 +7,7 @@ A datapack for Minecraft Java edition 1.19+
 ### What is the Amalgam?
 > the In-between, the grey areas where you are not sure what dimension it is, the Amalgam exists.
 
-An expansion of the relatively boring (no offense Mojang) vanilla game, add more exploration and fighting and satisfied most audiences looking for a better Minecraft without destroying your cpu (and ram).
+An expansion of the relatively boring (no offense Mojang) vanilla game, add more exploration and fighting and satisfying most audiences looking for a better Minecraft without destroying your cpu (and ram).
 
 
 <!--
