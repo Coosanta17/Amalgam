@@ -7,7 +7,7 @@ A datapack for Minecraft Java edition 1.19+
 ### What is the Amalgam?
 > the In-between, the grey areas where you are not sure what dimension it is, the Amalgam exists.
 
-The goal for this pack is to improve vanilla Minecraft, it is currently just a race for Netherite and power. This pack changes it, it has more options than just one type of armour that is super overpowered and more gameplay than vanilla Minecraft as it is more focused on the construction and exploration aspect of the game, but this can become boring quickly.
+An expansion of the relatively boring (no offense Mojang) vanilla game, add more exploration and fighting and satisfied most audiences looking for a better Minecraft without destroying your cpu (and ram).
 
 
 <!--
