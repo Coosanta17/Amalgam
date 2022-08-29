@@ -1,7 +1,7 @@
 {
   "type": "minecraft:fossil",
   "config": {
-    "max_empty_corners_allowed": 4,
+    "max_empty_corners_allowed": 7,
     "fossil_structures": [
       "amalgam:forest/trees/good_looking/1",
       "amalgam:forest/trees/good_looking/2",

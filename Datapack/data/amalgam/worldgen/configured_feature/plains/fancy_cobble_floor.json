@@ -2,7 +2,10 @@
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
     "state": {
-      "Name": "minecraft:stone"
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
     },
     "target": {
       "Name": "minecraft:cobblestone"

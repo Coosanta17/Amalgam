@@ -1,0 +1,35 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Looks familiar?"
+        },
+        "description": {
+            "text": "This looks like the overworld!"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:plains"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "plains"
+        ]
+    ],
+    "rewards": {
+        "experience": 5
+    },
+    "parent": "amalgam:root"
+}

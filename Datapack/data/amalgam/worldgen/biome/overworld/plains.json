@@ -95,6 +95,12 @@
         "weight": 1,
         "minCount": 1,
         "maxCount": 3
+      },
+      {
+        "type": "minecraft:frog",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 5
       }
     ],
     "ambient": [
@@ -128,7 +134,8 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_surface",
+      "amalgam:plains/fancy_stone_floor"
     ],
     [
       "minecraft:amethyst_geode"
@@ -143,8 +150,7 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel",
-      "amalgam:plains/fancy_stone_floor"
+      "minecraft:disk_gravel"
     ],
     [
       "amalgam:plains/cloud"
