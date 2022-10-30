@@ -1,29 +1,28 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-    "display": {
-        "title": {
-            "text": "The End of The End??"
-        },
-        "description": {
-            "text": "It's The End... after the end?!"
-        },
-        "icon": {
-            "item": "minecraft:end_stone"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:end_stone"
     },
-    "criteria": {
-        "aeoe": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "text": "The End of The End??"
     },
-    "requirements": [
-        [
-            "aeoe"
-        ]
-    ],
-    "parent": "amalgam:root"
+    "description": {
+      "text": "It's The End... after the end!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "amalgam:root",
+  "criteria": {
+    "aeoe": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "aeoe"
+    ]
+  ]
 }

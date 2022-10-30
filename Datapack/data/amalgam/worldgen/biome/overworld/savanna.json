@@ -158,6 +158,7 @@
       "minecraft:spring_lava"
     ],
     [
+      "amalgam:savanna/amalgamated_savanna_tree",
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass",
       "minecraft:trees_savanna",

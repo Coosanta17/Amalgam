@@ -1,29 +1,35 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-    "display": {
-        "title": {
-            "text": "Amalgamation?"
-        },
-        "description": {
-            "text": "Enter the Amalgam"
-        },
-        "icon": {
-            "item": "minecraft:diamond_sword"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false,
-        "background": "minecraft:textures/block/oak_leaves"
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
     },
-    "criteria": {
-        "Amalgamtion": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "text": "Amalgamation?"
     },
-    "requirements": [
-        [
-            "Amalgamtion"
-        ]
+    "description": {
+      "text": "Enter the Amalgam"
+    },
+    "background": "minecraft:textures/block/oak_leaves",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "Amalgamtion": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "amalgam:the_amalgam"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Amalgamtion"
     ]
+  ],
+  "rewards": {
+    "experience": 5
+  }
 }
