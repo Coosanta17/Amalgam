@@ -20,6 +20,8 @@ There is not much more I can write about in the concept section as the pack is b
 
 In a nutshell the pack is adding the main biomes from all the dimensions in vanilla Minecraft and amalgamating them together in one dimension. Each "amalgam dimension" will have one boss which will unlock a "sub-dimension", which I am still developing ideas for that.
 
+Development will be very slow because I have things to do and I can only work on it during the school holidays, which is why you should contribute to the project and make my life easier!
+
 ##### To Do and Done:
 
   ✔ Create and design main dimension
@@ -38,7 +40,7 @@ In a nutshell the pack is adding the main biomes from all the dimensions in vani
   
   ✖ Bugfixes and updates
 
-##### *this list will be evaluated when I reach each development section or have more ideas or a better plan*
+##### *this list will be evaluated when I reach each development section or have more ideas*
 
 <!--
 here is notes on how to do foldable sections
