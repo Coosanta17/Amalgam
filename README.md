@@ -22,9 +22,11 @@ In a nutshell the pack is adding the main biomes from all the dimensions in vani
 
 Development will be very slow because I have things to do and I can only work on it during the school holidays, which is why you should contribute to the project and make my life easier!
 
+If you want to see what needs to be done and help out a bit check out the [projects tab](https://github.com/Coosanta17/Amalgam/projects?query=is%3Aopen)
+
 ##### To Do and Done:
 
-Progress: ![](https://geps.dev/progress/15)
+Progress until first release: ![](https://geps.dev/progress/20)
 
   ✔ Create and design main dimension
   
