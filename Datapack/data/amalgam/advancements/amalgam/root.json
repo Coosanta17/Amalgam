@@ -19,7 +19,6 @@
     "Amalgamtion": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "from": "minecraft:overworld",
         "to": "amalgam:the_amalgam"
       }
     }
@@ -30,6 +29,6 @@
     ]
   ],
   "rewards": {
-    "experience": 5
+    "experience": 10
   }
 }
