@@ -19,65 +19,41 @@
     "plains": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "amalgam:overworld/desert"
-              }
-            }
+        "player": {
+          "location": {
+            "biome": "amalgam:overworld/desert"
           }
-        ]
+        }
       }
     },
     "desert": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "amalgam:overworld/plains"
-              }
-            }
+        "player": {
+          "location": {
+            "biome": "amalgam:overworld/plains"
           }
-        ]
+        }
       }
     },
     "forest": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "amalgam:overworld/forest"
-              }
-            }
+        "player": {
+          "location": {
+            "biome": "amalgam:overworld/forest"
           }
-        ]
+        }
       }
     },
     "savanna": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "amalgam:overworld/savanna"
-              }
-            }
+        "player": {
+          "location": {
+            "biome": "amalgam:overworld/savanna"
           }
-        ]
+        }
       }
     }
   },

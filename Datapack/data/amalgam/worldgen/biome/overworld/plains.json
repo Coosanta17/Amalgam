@@ -170,8 +170,7 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "amalgam:plains/wow_tree",
-      "amalgam:plains/fancy_cobble_floor",
-      "amalgam:plains/good_looking_tree"
+      "amalgam:plains/fancy_cobble_floor"
     ],
     [
       "minecraft:freeze_top_layer"

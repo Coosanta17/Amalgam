@@ -19,65 +19,41 @@
     "basalt": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "amalgam:nether/basalt"
-              }
-            }
+        "player": {
+          "location": {
+            "biome": "amalgam:nether/basalt"
           }
-        ]
+        }
       }
     },
     "crimson": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "amalgam:nether/crimson"
-              }
-            }
+        "player": {
+          "location": {
+            "biome": "amalgam:nether/crimson"
           }
-        ]
+        }
       }
     },
     "warped": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "amalgam:nether/warped"
-              }
-            }
+        "player": {
+          "location": {
+            "biome": "amalgam:nether/warped"
           }
-        ]
+        }
       }
     },
     "wastes": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "amalgam:nether/wastes"
-              }
-            }
+        "player": {
+          "location": {
+            "biome": "amalgam:nether/wastes"
           }
-        ]
+        }
       }
     }
   },

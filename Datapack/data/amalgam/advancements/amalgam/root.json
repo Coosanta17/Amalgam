@@ -9,7 +9,7 @@
     "description": {
       "text": "Enter the Amalgam"
     },
-    "background": "minecraft:textures/block/oak_leaves",
+    "background": "minecraft:textures/block/oak_leaves.png",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

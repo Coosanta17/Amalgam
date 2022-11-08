@@ -184,7 +184,8 @@
       "minecraft:vines",
       "minecraft:sea_pickle",
       "amalgam:forest/fungus_tree",
-      "amalgam:forest/fancy_tree"
+      "amalgam:forest/fancy_tree",
+      "amalgam:forest/good_looking_tree"
     ],
     [
       "minecraft:freeze_top_layer"

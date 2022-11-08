@@ -19,17 +19,11 @@
     "amalgam:end/islands": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "amalgam:end/islands"
-              }
-            }
+        "player": {
+          "location": {
+            "biome": "amalgam:end/islands"
           }
-        ]
+        }
       }
     }
   },
