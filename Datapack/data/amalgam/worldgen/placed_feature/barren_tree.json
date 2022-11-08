@@ -117,7 +117,7 @@
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "OCEAN_FLOOR"
+      "heightmap": "WORLD_SURFACE"
     }
   ]
 }
