@@ -147,7 +147,8 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane_desert",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_cactus_desert"
+      "minecraft:patch_cactus_desert",
+      "amalgam:desert/big_cactus"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -100,6 +100,40 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
+            "amalgam:overworld/savanna"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:noise_threshold",
+            "noise": "minecraft:calcite",
+            "min_threshold": 0.0125,
+            "max_threshold": 0.05
+          },
+          "then_run": {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:stone_depth",
+              "offset": 0,
+              "surface_type": "floor",
+              "add_surface_depth": false,
+              "secondary_depth_range": 0
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minecraft:coarse_dirt"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
             "amalgam:overworld/plains",
             "amalgam:overworld/forest",
             "amalgam:overworld/savanna"
