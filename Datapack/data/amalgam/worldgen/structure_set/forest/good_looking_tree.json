@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "amalgam:forest/good_looking_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 6666666669,
+    "spacing": 5,
+    "separation": 2
+  }
+}
