@@ -30,17 +30,10 @@
       }
     },
     "trunk_placer": {
-      "type": "minecraft:upwards_branching_trunk_placer",
+      "type": "minecraft:forking_trunk_placer",
       "base_height": 5,
       "height_rand_a": 2,
-      "height_rand_b": 0,
-      "extra_branch_steps": 1,
-      "extra_branch_length": 0,
-      "place_branch_per_log_probability": 0,
-      "can_grow_through": [
-        "minecraft:air",
-        "minecraft:sand"
-      ]
+      "height_rand_b": 0
     },
     "foliage_placer": {
       "type": "minecraft:blob_foliage_placer",
@@ -51,7 +44,7 @@
     "decorators": [
       {
         "type": "minecraft:attached_to_leaves",
-        "probability": 0.07,
+        "probability": 0.05,
         "exclusion_radius_xz": 0,
         "exclusion_radius_y": 0,
         "required_empty_blocks": 1,
@@ -72,7 +65,7 @@
       },
       {
         "type": "minecraft:attached_to_leaves",
-        "probability": 0.07,
+        "probability": 0.05,
         "exclusion_radius_xz": 0,
         "exclusion_radius_y": 0,
         "required_empty_blocks": 1,
