@@ -98,7 +98,7 @@
       },
       {
         "type": "minecraft:frog",
-        "weight": 5,
+        "weight": 10,
         "minCount": 1,
         "maxCount": 5
       }
@@ -134,8 +134,7 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_surface",
-      "amalgam:plains/fancy_stone_floor"
+      "minecraft:lake_lava_surface"
     ],
     [
       "minecraft:amethyst_geode"
@@ -173,6 +172,7 @@
       "amalgam:plains/fancy_cobble_floor"
     ],
     [
+      "amalgam:plains/fancy_stone_floor",
       "minecraft:freeze_top_layer"
     ]
   ]
