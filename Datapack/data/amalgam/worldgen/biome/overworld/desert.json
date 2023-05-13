@@ -124,7 +124,8 @@
       "minecraft:monster_room_deep"
     ],
     [
-      "minecraft:desert_well"
+      "minecraft:desert_well",
+      "amalgam:desert/sandstone_hoodoo"
     ],
     [],
     [
