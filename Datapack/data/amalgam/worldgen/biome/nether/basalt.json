@@ -67,9 +67,9 @@
     [],
     [],
     [
-      "minecraft:delta",
-      "minecraft:small_basalt_columns",
-      "minecraft:large_basalt_columns"
+      "amalgam:basalt/delta",
+      "amalgam:basalt/delta_column_small",
+      "amalgam:basalt/delta_column_large"
     ],
     [],
     [],
