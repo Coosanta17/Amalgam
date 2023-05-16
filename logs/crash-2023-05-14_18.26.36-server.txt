@@ -1,0 +1,342 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 2023-05-14 18:26:36
+Description: Feature placement
+
+java.lang.IllegalArgumentException: Cannot set property class_2754{name=axis, clazz=class net.minecraft.class_2350$class_2351, values=[x, y, z]} as it does not exist in Block{minecraft:cobblestone}
+	at net.minecraft.class_2688.method_11657(class_2688.java:117)
+	at net.minecraft.class_5212.method_35374(class_5212.java:119)
+	at net.minecraft.class_5141.method_27402(class_5141.java:76)
+	at net.minecraft.class_5212.method_27393(class_5212.java:119)
+	at net.minecraft.class_5212.method_26991(class_5212.java:90)
+	at net.minecraft.class_2944.method_12775(class_2944.java:95)
+	at net.minecraft.class_2944.method_13151(class_2944.java:154)
+	at net.minecraft.class_3031.method_40163(class_3031.java:165)
+	at net.minecraft.class_2975.method_12862(class_2975.java:27)
+	at net.minecraft.class_6796.method_39646(class_6796.java:56)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180)
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104)
+	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:711)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at net.minecraft.class_6796.method_39648(class_6796.java:55)
+	at net.minecraft.class_6796.method_39650(class_6796.java:44)
+	at net.minecraft.class_2794.method_12102(class_2794.java:466)
+	at net.minecraft.class_2806.method_20613(class_2806.java:145)
+	at net.minecraft.class_2806.md76eb61$lambda$injectLightmapSetup$1$4(class_2806.java:546)
+	at net.minecraft.class_2806.method_12154(class_2806.java:292)
+	at net.minecraft.class_3898.method_17225(class_3898.java:679)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.class_3898.method_17224(class_3898.java:673)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.class_3900.method_17634(class_3900.java:62)
+	at net.minecraft.class_3846.method_16907(class_3846.java:91)
+	at net.minecraft.class_3846.method_16900(class_3846.java:146)
+	at net.minecraft.class_3846.run(class_3846.java:102)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.class_2688.method_11657(class_2688.java:117)
+	at net.minecraft.class_5212.method_35374(class_5212.java:119)
+	at net.minecraft.class_5141.method_27402(class_5141.java:76)
+	at net.minecraft.class_5212.method_27393(class_5212.java:119)
+	at net.minecraft.class_5212.method_26991(class_5212.java:90)
+	at net.minecraft.class_2944.method_12775(class_2944.java:95)
+	at net.minecraft.class_2944.method_13151(class_2944.java:154)
+	at net.minecraft.class_3031.method_40163(class_3031.java:165)
+	at net.minecraft.class_2975.method_12862(class_2975.java:27)
+	at net.minecraft.class_6796.method_39646(class_6796.java:56)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180)
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104)
+	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:711)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at net.minecraft.class_6796.method_39648(class_6796.java:55)
+	at net.minecraft.class_6796.method_39650(class_6796.java:44)
+	at net.minecraft.class_2794.method_12102(class_2794.java:466)
+	at net.minecraft.class_2806.method_20613(class_2806.java:145)
+	at net.minecraft.class_2806.md76eb61$lambda$injectLightmapSetup$1$4(class_2806.java:546)
+	at net.minecraft.class_2806.method_12154(class_2806.java:292)
+	at net.minecraft.class_3898.method_17225(class_3898.java:679)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.class_3898.method_17224(class_3898.java:673)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+
+-- Feature --
+Details:
+	Description: ResourceKey[minecraft:worldgen/placed_feature / amalgam:barren_tree]
+Stacktrace:
+	at net.minecraft.class_2794.method_12102(class_2794.java:466)
+	at net.minecraft.class_2806.method_20613(class_2806.java:145)
+	at net.minecraft.class_2806.md76eb61$lambda$injectLightmapSetup$1$4(class_2806.java:546)
+	at net.minecraft.class_2806.method_12154(class_2806.java:292)
+	at net.minecraft.class_3898.method_17225(class_3898.java:679)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.class_3898.method_17224(class_3898.java:673)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.class_3900.method_17634(class_3900.java:62)
+	at net.minecraft.class_3846.method_16907(class_3846.java:91)
+	at net.minecraft.class_3846.method_16900(class_3846.java:146)
+	at net.minecraft.class_3846.run(class_3846.java:102)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+-- Generation --
+Details:
+	CenterX: -63
+	CenterZ: -58
+	Seed: -6308551800208092444
+Stacktrace:
+	at net.minecraft.class_2794.method_12102(class_2794.java:466)
+	at net.minecraft.class_2806.method_20613(class_2806.java:145)
+	at net.minecraft.class_2806.md76eb61$lambda$injectLightmapSetup$1$4(class_2806.java:546)
+	at net.minecraft.class_2806.method_12154(class_2806.java:292)
+	at net.minecraft.class_3898.method_17225(class_3898.java:679)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.class_3898.method_17224(class_3898.java:673)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.class_3900.method_17634(class_3900.java:62)
+	at net.minecraft.class_3846.method_16907(class_3846.java:91)
+	at net.minecraft.class_3846.method_16900(class_3846.java:146)
+	at net.minecraft.class_3846.run(class_3846.java:102)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+-- Chunk to be generated --
+Details:
+	Location: -63,-58
+	Position hash: -244813135935
+	Generator: net.minecraft.class_3754@75f5881c
+Stacktrace:
+	at net.minecraft.class_3898.method_17225(class_3898.java:679)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at net.minecraft.class_3898.method_17224(class_3898.java:673)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.class_3900.method_17634(class_3900.java:62)
+	at net.minecraft.class_3846.method_16907(class_3846.java:91)
+	at net.minecraft.class_3846.method_16900(class_3846.java:146)
+	at net.minecraft.class_3846.run(class_3846.java:102)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.class_3222)
+	Entity ID: 258
+	Entity Name: Coosanta
+	Entity's Exact location: -1016.50, 81.00, -937.50
+	Entity's Block location: World: (-1017,81,-938), Section: (at 7,1,6 in -64,5,-59; chunk contains blocks -1024,-64,-944 to -1009,319,-929), Region: (-2,-2; contains chunks -64,-64 to -33,-33, blocks -1024,-64,-1024 to -513,319,-513)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.class_3222.method_14226(class_3222.java:547)
+	at net.minecraft.class_3244.method_18784(class_3244.java:268)
+	at net.minecraft.class_2535.method_10754(class_2535.java:248)
+	at net.minecraft.class_3242.method_14357(class_3242.java:183)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:886)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:819)
+	at net.minecraft.class_1132.method_3748(class_1132.java:98)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:665)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 992802408 bytes (946 MiB) / 2147483648 bytes (2048 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+	Identifier: Intel64 Family 6 Model 126 Stepping 5
+	Microarchitecture: unknown
+	Frequency (GHz): 1.19
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x8a56
+	Graphics card #0 versionInfo: DriverVersion=30.0.101.3118
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 3.73
+	Memory slot #0 type: LPDDR4
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 3.73
+	Memory slot #1 type: LPDDR4
+	Virtual memory max (MB): 14679.09
+	Virtual memory used (MB): 13239.93
+	Swap memory total (MB): 6900.92
+	Swap memory used (MB): 2439.35
+	JVM Flags: 9 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	Fabric Mods: 
+		architectury: Architectury 6.4.62
+		craftpresence: CraftPresence 1.9.6
+		cyanide: Cyanide 3.0.1
+		fabric-api: Fabric API 0.66.0+1.19.2
+			fabric-api-base: Fabric API Base 0.4.12+93d8cb8290
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.10+93d8cb8290
+			fabric-biome-api-v1: Fabric Biome API (v1) 9.0.18+c6af733c90
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.0+12bfe4ea90
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.21+c6af733c90
+			fabric-client-tags-api-v1: Fabric Client Tags 1.0.2+b35fea8390
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.12+f71b366f90
+			fabric-command-api-v2: Fabric Command API (v2) 2.1.8+93d8cb8290
+			fabric-commands-v0: Fabric Commands (v0) 0.2.29+df3654b390
+			fabric-containers-v0: Fabric Containers (v0) 0.1.35+df3654b390
+			fabric-content-registries-v0: Fabric Content Registries (v0) 3.4.1+6064db2a90
+			fabric-convention-tags-v1: Fabric Convention Tags 1.1.2+93d8cb8290
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.6+aeb40ebe90
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 5.2.3+b598f4ac90
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.32+0dd10df690
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.0+a1d87cb890
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.29+c6af733c90
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.29+df3654b390
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.22+c6af733c90
+			fabric-item-api-v1: Fabric Item API (v1) 1.5.8+93d8cb8290
+			fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.33+70efcffe90
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.22+aaaf9d3390
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.20+df3654b390
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.0+33ffe9ec90
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.7+83a8659290
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.10+9e7660c690
+			fabric-message-api-v1: Fabric Message API (v1) 5.0.4+93d8cb8290
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.18+33fbc73890
+			fabric-models-v0: Fabric Models (v0) 0.3.18+c6af733c90
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.2.5+c6af733c90
+			fabric-networking-v0: Fabric Networking (v0) 0.3.22+df3654b390
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 4.1.0+06e0e25190
+			fabric-particles-v1: Fabric Particles (v1) 1.0.11+79adfe0a90
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.26+c6af733c90
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 1.0.13+12bfe4ea90
+			fabric-renderer-indigo: Fabric Renderer - Indigo 0.6.15+aeb40ebe90
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.21+df3654b390
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.16+12bfe4ea90
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.8+c6af733c90
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.23+df3654b390
+			fabric-rendering-v1: Fabric Rendering (v1) 1.11.0+73145abb90
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.1.0+aae9039d90
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.7.3+3e1ba48e90
+			fabric-screen-api-v1: Fabric Screen API (v1) 1.0.27+93d8cb8290
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.1+1cc24b1b90
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.0+c4f28df590
+			fabric-textures-v0: Fabric Textures (v0) 1.0.21+aeb40ebe90
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 2.1.1+93d8cb8290
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.3.1+42d99c3290
+		fabricloader: Fabric Loader 0.14.10
+		ferritecore: FerriteCore 5.0.3
+		freecam: Freecam 1.1.6
+			cloth-config: Cloth Config v8 8.0.75
+				cloth-basic-math: cloth-basic-math 0.6.1
+		indium: Indium 1.0.9+mc1.19.2
+		iris: Iris 1.5.0
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.0-pre8
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.11.1
+		java: OpenJDK 64-Bit Server VM 17
+		lambdynlights: LambDynamicLights 2.1.2+1.19
+			pride: Pride Lib 1.1.2+1.19
+			spruceui: SpruceUI 4.0.0+1.19
+		lazydfu: LazyDFU 0.1.3
+		litematica: Litematica 0.12.5
+		lithium: Lithium 0.10.4
+		logical_zoom: Logical Zoom 0.0.17
+		malilib: MaLiLib 0.13.0
+		mightyarchitect: The Mighty Architect 0.6.1
+		minecraft: Minecraft 1.19.2
+		modmenu: Mod Menu 4.1.0
+		multiconnect: MultiConnect 1.6-beta.23
+			multiconnect-api: MultiConnect API 1.6-beta.23
+		phosphor: Phosphor 0.8.1
+		reeses-sodium-options: Reese's Sodium Options 1.4.7+mc1.19.2-build.59
+		replaymod: Replay Mod 1.19.1-2.6.8
+		sodium: Sodium 0.4.4+build.18
+			org_joml_joml: joml 1.10.4
+		sodium-extra: Sodium Extra 0.4.12+mc1.19.2-build.72
+			caffeineconfig: CaffeineConfig 1.0.0+1.17
+		worldedit: WorldEdit 7.2.12+6240-87f4ae1
+		worldeditcui: WorldEditCUI 1.19.2+01
+		yet-another-config-lib: YetAnotherConfigLib 2.2.0-for-1.19.2
+	Loaded Shaderpack: (off)
+	NEC status: No NEC detected
+	Server Running: true
+	Player Count: 1 / 8; [class_3222['Coosanta'/258, l='ServerLevel[Anti Seed Stealer test + amalgam]', x=-1016.50, y=81.00, z=-937.50]]
+	Data Packs: vanilla, Fabric Mods, file/Amalgam_aplpha_4.1.8.zip, file/Anti_Seed_stealer (1).zip (incompatible)
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Launched Version: fabric-loader-0.14.10-1.19.2
