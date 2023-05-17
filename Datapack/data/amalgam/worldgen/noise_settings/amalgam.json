@@ -266,6 +266,83 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
+            "amalgam:nether/basalt"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "noise": "minecraft:gravel",
+                "min_threshold": -0.25,
+                "max_threshold": 0.25
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:lava",
+                  "Properties": {
+                    "level": "15"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "noise": "minecraft:gravel",
+                "min_threshold": -0.5,
+                "max_threshold": 0.5
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:magma_block"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "noise": "minecraft:gravel",
+                "min_threshold": -1,
+                "max_threshold": 1
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:obsidian"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "noise": "minecraft:gravel",
+                "min_threshold": -0.75,
+                "max_threshold": 0.75
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:crying_obsidian"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
             "amalgam:nether/wastes",
             "amalgam:nether/warped",
             "amalgam:nether/crimson",
