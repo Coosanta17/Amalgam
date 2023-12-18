@@ -23,6 +23,10 @@
       "Properties": {
         "snowy": "false"
       }
-    }
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:true"
+    },
+    "planted": false
   }
 }

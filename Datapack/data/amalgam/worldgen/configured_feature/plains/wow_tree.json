@@ -23,7 +23,11 @@
             },
             "valid_base_block": {
               "Name": "minecraft:stone"
-            }
+            },
+            "replaceable_blocks": {
+              "type": "minecraft:true"
+            },
+            "planted": false
           }
         },
         "placement": []
@@ -49,7 +53,11 @@
             },
             "valid_base_block": {
               "Name": "minecraft:stone"
-            }
+            },
+            "replaceable_blocks": {
+              "type": "minecraft:true"
+            },
+            "planted": false
           }
         },
         "placement": []
@@ -75,7 +83,11 @@
             },
             "valid_base_block": {
               "Name": "minecraft:stone"
-            }
+            },
+            "replaceable_blocks": {
+              "type": "minecraft:true"
+            },
+            "planted": false
           }
         },
         "placement": []
