@@ -1,7 +1,6 @@
 {
   "temperature": 0.5,
   "downfall": 0.5,
-  "precipitation": "none",
   "effects": {
     "sky_color": 0,
     "fog_color": 10518688,
@@ -54,5 +53,6 @@
     [
       "minecraft:chorus_plant"
     ]
-  ]
+  ],
+  "has_precipitation": false
 }

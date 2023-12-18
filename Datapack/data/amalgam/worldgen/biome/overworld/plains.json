@@ -1,7 +1,6 @@
 {
   "temperature": 0.8,
   "downfall": 0.4,
-  "precipitation": "rain",
   "effects": {
     "sky_color": 4807289,
     "fog_color": 12154,
@@ -175,5 +174,6 @@
       "amalgam:plains/fancy_stone_floor",
       "minecraft:freeze_top_layer"
     ]
-  ]
+  ],
+  "has_precipitation": true
 }

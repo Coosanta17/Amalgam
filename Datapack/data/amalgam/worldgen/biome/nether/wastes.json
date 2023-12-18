@@ -1,7 +1,6 @@
 {
   "temperature": 2,
   "downfall": 0,
-  "precipitation": "none",
   "effects": {
     "sky_color": 8405570,
     "fog_color": 3344392,
@@ -104,5 +103,6 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal"
     ]
-  ]
+  ],
+  "has_precipitation": false
 }

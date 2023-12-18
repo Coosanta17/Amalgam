@@ -1,7 +1,6 @@
 {
   "temperature": 2,
   "downfall": 0,
-  "precipitation": "none",
   "effects": {
     "sky_color": 5910576,
     "fog_color": 1705242,
@@ -93,5 +92,6 @@
       "minecraft:nether_sprouts",
       "minecraft:twisting_vines"
     ]
-  ]
+  ],
+  "has_precipitation": false
 }

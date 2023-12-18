@@ -1,7 +1,6 @@
 {
   "temperature": 2,
   "downfall": 0,
-  "precipitation": "none",
   "effects": {
     "sky_color": 4482189,
     "fog_color": 17786,
@@ -172,5 +171,6 @@
     [
       "minecraft:freeze_top_layer"
     ]
-  ]
+  ],
+  "has_precipitation": false
 }

@@ -1,7 +1,6 @@
 {
   "temperature": 2,
   "downfall": 0,
-  "precipitation": "none",
   "effects": {
     "sky_color": 6901583,
     "fog_color": 6840176,
@@ -90,5 +89,6 @@
       "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small"
     ]
-  ]
+  ],
+  "has_precipitation": false
 }
