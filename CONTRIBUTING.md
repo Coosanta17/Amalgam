@@ -1,4 +1,4 @@
-## How to contribute to the Amalgam project
+# How to contribute to the Amalgam project
 
 #### **Did you find a bug?**
 
@@ -16,13 +16,11 @@
 
 * If an issue exists and your patch has fixed it make sure to link it in the PR description so it can be closed.
 
-
 #### **Do you intend to add a new feature or change an existing one?**
 
 * Suggest your change in an issue and maybe put a basic idea of how you would achieve this
 
 * Do not open a pull request on GitHub until you have collected positive feedback about the change and permission from one of the devs, so you don't end up wasting your time. Please make sure that is isn't already being worked on or is clashing with another suggested change or PR.
-
 
 #### **Do you have questions about the source code?**
 
@@ -32,5 +30,5 @@
 
 * well it doesn't even exist (yet)
 
-Thanks 
+Thanks
 Coosanta

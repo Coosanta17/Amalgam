@@ -1,17 +1,17 @@
 
 # The Amalgam
 
-
 A datapack for Minecraft Java edition 1.19+
 
-#### This pack is not dead! 
+#### This pack is not dead
+
 it will only be dead when I say so, there may be large gaps between commits - that's called "being busy".
 
 ### What is the Amalgam?
+>
 > the In-between, the areas where you are not sure what dimension it is, the Amalgam exists.
 
-An expansion of the relatively boring (no offense Mojang) vanilla game, to add more exploration and fighting, satisfying most audiences looking for a better Minecraft experience without destroying your cpu (and ram).
-
+An expansion of the relatively boring (no offense Mojang) vanilla game, to add more exploration and fighting, satisfying most audiences looking for a better Minecraft experience without destroying your cpu.
 
 <!--
 If someone could rephrase this and add more info that would be good
@@ -27,7 +27,7 @@ Development will be very slow because I have things to do and I can only work on
 
 If you want to see what needs to be done and help out a bit check out the [projects tab](https://github.com/Coosanta17/Amalgam/projects?query=is%3Aopen)
 
-##### To Do and Done:
+##### To Do and Done
 
 Progress until first release: ![](https://geps.dev/progress/35)
 
