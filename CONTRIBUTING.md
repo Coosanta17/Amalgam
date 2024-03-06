@@ -30,8 +30,7 @@
 
 #### **Do you want to contribute to the Amalgam documentation/wiki?**
 
-* idk i need to figure out how to manage permissions first
+* well it doesn't even exist (yet)
 
 Thanks 
-
-Coosanata and co. (only me so far)
+Coosanta
