@@ -11,11 +11,7 @@ it will only be dead when I say so, there may be large gaps between commits - th
 >
 > the In-between, the areas where you are not sure what dimension it is, the Amalgam exists.
 
-An expansion of the relatively boring (no offense Mojang) vanilla game, to add more exploration and fighting, satisfying most audiences looking for a better Minecraft experience without destroying your cpu.
-
-<!--
-If someone could rephrase this and add more info that would be good
--->
+An expansion of the relatively boring (no offense Mojang) vanilla game, to add more exploration and fighting, satisfying most audiences looking for a better Minecraft experience without the complex steps required for mods.
 
 ### Development
 
