@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:range_choice",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": "amalgam:continentalness",
+    "argument2": 0
+  },
+  "min_inclusive": -1,
+  "max_exclusive": 1000000,
+  "when_in_range": "amalgam:floating_islands",
+  "when_out_of_range": -1.7976931348623157e+308
+}

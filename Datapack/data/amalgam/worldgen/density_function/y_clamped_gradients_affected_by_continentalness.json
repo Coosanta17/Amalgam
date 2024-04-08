@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": "amalgam:y_clamped_gradients",
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": "amalgam:continentalness",
+      "argument2": 0
+    }
+  },
+  "min": -1000000,
+  "max": 1
+}
