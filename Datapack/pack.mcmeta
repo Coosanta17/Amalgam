@@ -1,6 +1,25 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": "The Amalgam by Coosanta. §4§lWIP!§r§o use with caution!"
+    "description": [
+      {
+        "text": "The Amalgam",
+        "color": "#047a5b",
+        "bold": true,
+        "italic": true
+      },
+      {
+        "text": " by Coosanta",
+        "italic": true
+      },
+      {
+        "text": " - Version ",
+        "italic": true
+      },
+      {
+        "text": "Alpha 4.x.x",
+        "color": "gray"
+      }
+    ]
   }
 }
