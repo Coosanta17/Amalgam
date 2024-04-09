@@ -73,7 +73,7 @@
         "layout_luqguizu",
         "layout_lurm26z5",
         "layout_luqgaxdr",
-        "biome_luaikzcd",
+        "unassigned",
         "layout_luqgaxdr",
         "layout_lurm26z5",
         "layout_luqguizu",
@@ -103,7 +103,7 @@
         "layout_lurmmiqa",
         "layout_lurmdwiz",
         "layout_lurmu8il",
-        "biome_luaikzcd",
+        "unassigned",
         "layout_lurmu8il",
         "layout_lurmdwiz",
         "layout_lurmmiqa",
@@ -112,33 +112,33 @@
         "layout_lurmdwiz"
       ],
       [
-        "layout_lurmdwiz",
-        "layout_lurmmiqa",
-        "layout_lurmmiqa",
-        "layout_lurmmiqa",
-        "layout_lurmdwiz",
-        "layout_lurmu8il",
-        "biome_luaikzcd",
-        "layout_lurmu8il",
-        "layout_lurmdwiz",
-        "layout_lurmmiqa",
-        "layout_lurmmiqa",
-        "layout_lurmmiqa",
-        "layout_lurmdwiz"
+        "unassigned",
+        "unassigned",
+        "unassigned",
+        "unassigned",
+        "unassigned",
+        "unassigned",
+        "unassigned",
+        "unassigned",
+        "unassigned",
+        "unassigned",
+        "unassigned",
+        "unassigned",
+        "unassigned"
       ],
       [
         "biome_luaikzcd",
-        "biome_luq9rvcc",
-        "biome_luq9rvcc",
-        "biome_luq9rvcc",
+        "layout_lus4bgu5",
+        "layout_lus4bgu5",
+        "layout_lus4bgu5",
         "biome_luaikzcd",
         "biome_luaikzcd",
         "biome_luaikzcd",
         "biome_luaikzcd",
         "biome_luaikzcd",
-        "biome_luq9rvcc",
-        "biome_luq9rvcc",
-        "biome_luq9rvcc",
+        "layout_lus4bgu5",
+        "layout_lus4bgu5",
+        "layout_lus4bgu5",
         "biome_luaikzcd"
       ]
     ]
@@ -733,7 +733,7 @@
     },
     {
       "key": "layout_lurm26z5",
-      "name": "Medium Slice",
+      "name": "Medium Slice overworld",
       "array": [
         [
           "biome_luailchs",
@@ -783,29 +783,29 @@
         [
           "layout_luqahjw4",
           "layout_luqahjw4",
-          "layout_luqabd71/layout_luqfq7ng",
-          "layout_luqfq7ng",
-          "layout_luqfq7ng",
+          "layout_luqabd71",
+          "layout_luqabd71",
+          "layout_luqabd71",
           "layout_luqabd71",
           "layout_luqabd71"
         ],
         [
           "layout_luqahjw4",
           "layout_luqahjw4",
-          "layout_luqahjw4/layout_luqg6d49",
-          "layout_luqg6d49",
-          "layout_luqfq7ng",
-          "layout_luqfq7ng",
-          "layout_luqfq7ng"
+          "layout_luqahjw4",
+          "layout_luqahjw4",
+          "layout_luqabd71",
+          "layout_luqabd71",
+          "layout_luqabd71"
         ],
         [
           "layout_luqahjw4",
           "layout_luqahjw4",
-          "layout_luqahjw4/layout_luqg6d49",
-          "layout_luqg6d49",
-          "layout_luqfq7ng",
-          "layout_luqfq7ng",
-          "layout_luqfq7ng"
+          "layout_luqahjw4",
+          "layout_luqahjw4",
+          "layout_luqabd71",
+          "layout_luqabd71",
+          "layout_luqabd71"
         ]
       ]
     },
@@ -861,29 +861,29 @@
         [
           "layout_luqg1d2i",
           "layout_luqg1d2i",
-          "layout_luqg1d2i/layout_luquw70z",
-          "layout_luquw70z",
-          "layout_luquw70z",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
           "biome_luq9skqt",
           "biome_luq9skqt"
         ],
         [
           "layout_luqg1d2i",
           "layout_luqg1d2i",
-          "layout_luqg1d2i/layout_luquyfwo",
-          "layout_luquyfwo",
-          "layout_luquw70z",
-          "layout_luquw70z",
-          "layout_luquw70z"
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i"
         ],
         [
           "layout_luqg1d2i",
           "layout_luqg1d2i",
-          "layout_luqg1d2i/layout_luquyfwo",
-          "layout_luquyfwo",
-          "layout_luquw70z",
-          "layout_luquw70z",
-          "layout_luquw70z"
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i"
         ]
       ]
     },
@@ -942,26 +942,26 @@
           "layout_luqahjw4",
           "layout_luqahjw4",
           "layout_luqahjw4",
-          "layout_luqfq7ng",
-          "layout_luqabd71/layout_luqfq7ng"
+          "layout_luqabd71",
+          "layout_luqabd71"
         ],
         [
           "biome_luailwi4",
           "biome_luailwi4",
           "biome_luailwi4",
-          "layout_luqg6d49",
-          "layout_luqg6d49",
-          "layout_luqg6d49",
-          "layout_luqfq7ng/layout_luqg6d49"
+          "layout_luqahjw4",
+          "layout_luqahjw4",
+          "layout_luqahjw4",
+          "layout_luqabd71/layout_luqahjw4"
         ],
         [
           "biome_luailwi4",
           "biome_luailwi4",
           "biome_luailwi4",
           "biome_luailwi4",
-          "layout_luqg6d49",
-          "layout_luqg6d49",
-          "layout_luqg6d49"
+          "layout_luqahjw4",
+          "layout_luqahjw4",
+          "layout_luqahjw4"
         ]
       ]
     },
@@ -1020,26 +1020,26 @@
           "layout_luqg1d2i",
           "layout_luqg1d2i",
           "layout_luqg1d2i",
-          "layout_luquw70z",
-          "layout_luqg1d2i/layout_luquw70z"
-        ],
-        [
           "layout_luqg1d2i",
-          "layout_luqg1d2i",
-          "layout_luqg1d2i",
-          "layout_luquyfwo",
-          "layout_luquyfwo",
-          "layout_luquyfwo",
-          "layout_luquw70z/layout_luquyfwo"
+          "layout_luqg1d2i"
         ],
         [
           "layout_luqg1d2i",
           "layout_luqg1d2i",
           "layout_luqg1d2i",
           "layout_luqg1d2i",
-          "layout_luquyfwo",
-          "layout_luquyfwo",
-          "layout_luquyfwo"
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i"
+        ],
+        [
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i"
         ]
       ]
     },
@@ -1118,6 +1118,84 @@
           "layout_luqg6d49",
           "layout_luqg6d49",
           "layout_luqg6d49"
+        ]
+      ]
+    },
+    {
+      "key": "layout_lus4bgu5",
+      "name": "Deepdark or Cave or Void",
+      "array": [
+        [
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd"
+        ],
+        [
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd"
+        ],
+        [
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd"
+        ],
+        [
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd"
+        ],
+        [
+          "biome_luq9rvcc",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i"
+        ],
+        [
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i",
+          "layout_luqg1d2i"
+        ],
+        [
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "biome_luq9rvcc"
+        ],
+        [
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "biome_luq9rvcc",
+          "biome_luq9rvcc"
         ]
       ]
     }
