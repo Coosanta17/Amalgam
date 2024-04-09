@@ -9,9 +9,9 @@
         {
           "biome": "amalgam:void",
           "parameters": {
-            "temperature": -1,
+            "temperature": 0,
             "humidity": 0,
-            "continentalness": -1,
+            "continentalness": -0.933,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -21,9 +21,12 @@
         {
           "biome": "amalgam:end/islands",
           "parameters": {
-            "temperature": -1.4,
-            "humidity": 0,
-            "continentalness": 0,
+            "temperature": -0.6,
+            "humidity": [
+              -0.1,
+              0.1
+            ],
+            "continentalness": -0.2,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -33,9 +36,12 @@
         {
           "biome": "amalgam:overworld/plains",
           "parameters": {
-            "temperature": 0.075,
+            "temperature": [
+              -0.3,
+              0.3
+            ],
             "humidity": 0,
-            "continentalness": 0.69,
+            "continentalness": 0.1,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -45,9 +51,36 @@
         {
           "biome": "amalgam:overworld/forest",
           "parameters": {
+            "temperature": [
+              -0.3,
+              0.3
+            ],
+            "humidity": 0.1,
+            "continentalness": 0.2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "amalgam:overworld/snowy",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "amalgam:overworld/mountain",
+          "parameters": {
             "temperature": 0,
             "humidity": 0,
-            "continentalness": 0.72,
+            "continentalness": 1.2,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -57,9 +90,9 @@
         {
           "biome": "amalgam:overworld/savanna",
           "parameters": {
-            "temperature": 0.375,
+            "temperature": 0.3,
             "humidity": 0,
-            "continentalness": 0.7,
+            "continentalness": 0.4,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -69,10 +102,22 @@
         {
           "biome": "amalgam:overworld/desert",
           "parameters": {
-            "temperature": 0.45,
+            "temperature": 0.4,
             "humidity": 0,
-            "continentalness": 0.7,
-            "erosion": 0.1,
+            "continentalness": 0.41,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "amalgam:nether/forest",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 0,
+            "continentalness": 0.6,
+            "erosion": 0,
             "weirdness": 0,
             "depth": 0,
             "offset": 0
@@ -81,34 +126,10 @@
         {
           "biome": "amalgam:nether/wastes",
           "parameters": {
-            "temperature": 0.6,
+            "temperature": 0.8,
             "humidity": 0,
-            "continentalness": 0.69,
+            "continentalness": 0.5,
             "erosion": 0,
-            "weirdness": 0.001,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "amalgam:nether/crimson",
-          "parameters": {
-            "temperature": 0.7,
-            "humidity": 0,
-            "continentalness": 0.725,
-            "erosion": 0.1,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "amalgam:nether/warped",
-          "parameters": {
-            "temperature": 0.700000000001,
-            "humidity": 0,
-            "continentalness": 0.731,
-            "erosion": -0.1,
             "weirdness": 0,
             "depth": 0,
             "offset": 0
@@ -117,9 +138,9 @@
         {
           "biome": "amalgam:nether/basalt",
           "parameters": {
-            "temperature": 0.75,
+            "temperature": 1,
             "humidity": 0,
-            "continentalness": 0.72,
+            "continentalness": 0.2,
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -129,13 +150,13 @@
         {
           "biome": "amalgam:barren",
           "parameters": {
-            "temperature": -1,
+            "temperature": -0.5,
             "humidity": 0,
-            "continentalness": -1,
-            "erosion": -1,
+            "continentalness": -2,
+            "erosion": 0,
             "weirdness": 0,
             "depth": 0,
-            "offset": 0
+            "offset": 0.5
           }
         }
       ]
