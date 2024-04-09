@@ -73,13 +73,13 @@
         "layout_luqguizu",
         "layout_lurm26z5",
         "layout_luqgaxdr",
-        "unassigned",
         "layout_luqgaxdr",
-        "layout_lurm26z5",
-        "layout_luqguizu",
-        "layout_luqguizu",
-        "layout_luqguizu",
-        "layout_lurm26z5"
+        "layout_luqgaxdr",
+        "layout_luqrgtrx",
+        "layout_luqrgtrx",
+        "layout_luqrgtrx",
+        "layout_luqrgtrx",
+        "layout_luqrgtrx"
       ],
       [
         "unassigned",
@@ -103,13 +103,13 @@
         "layout_lurmmiqa",
         "layout_lurmdwiz",
         "layout_lurmu8il",
-        "unassigned",
         "layout_lurmu8il",
-        "layout_lurmdwiz",
-        "layout_lurmmiqa",
-        "layout_lurmmiqa",
-        "layout_lurmmiqa",
-        "layout_lurmdwiz"
+        "layout_lurmu8il",
+        "layout_lusa22eb",
+        "layout_lusa22eb",
+        "layout_lusa22eb",
+        "layout_lusa22eb",
+        "layout_lusa22eb"
       ],
       [
         "unassigned",
@@ -150,8 +150,8 @@
     "A",
     "A",
     "A",
-    "B",
-    "B",
+    "A",
+    "A",
     "B",
     "B",
     "B",
@@ -174,10 +174,10 @@
         [
           "biome_luq9oa84",
           "biome_luq9oa84",
-          "biome_luq9oa84/biome_luailokv",
           "biome_luailokv",
           "biome_luailokv",
-          "biome_luailokv/biome_luaimxw1"
+          "biome_luailokv",
+          "biome_luailokv"
         ],
         [
           "biome_luq9epg6",
@@ -188,8 +188,8 @@
           "biome_luaimxw1"
         ],
         [
-          "biome_luq9e1qq",
-          "biome_luq9e1qq",
+          "biome_luq9epg6",
+          "biome_luq9epg6",
           "biome_luq9epg6",
           "biome_luaimxw1",
           "biome_luaimxw1",
@@ -223,20 +223,20 @@
           "biome_luaimxw1",
           "biome_luaimxw1",
           "biome_luaimxw1",
-          "biome_luailokv/biome_luaimxw1"
+          "biome_luaimdcr"
         ],
         [
-          "biome_luq9e1qq",
-          "biome_luq9e1qq",
+          "biome_luailokv/biome_luq9e1qq",
           "biome_luaimxw1",
-          "biome_luaimxw1",
+          "biome_luaimdcr",
+          "biome_luaimdcr",
           "biome_luaimxw1/biome_luaimdcr",
           "biome_luaimdcr"
         ],
         [
           "biome_luq9e1qq",
           "biome_luq9e1qq",
-          "biome_luaimxw1/biome_luaimdcr",
+          "biome_luaimxw1",
           "biome_luaimdcr",
           "biome_luaimdcr",
           "biome_luaimdcr"
@@ -313,13 +313,13 @@
           "biome_luq9gtqk",
           "biome_luq9gtqk",
           "biome_luq9gtqk",
-          "biome_luq9gtqk/biome_luq9fmcn",
-          "biome_luq9fmcn",
+          "biome_luq9gtqk",
+          "biome_luq9gtqk",
           "biome_luq9fmcn"
         ],
         [
-          "biome_luq9f6n0",
-          "biome_luq9f6n0",
+          "biome_luq9gtqk",
+          "biome_luq9gtqk",
           "biome_luq9gtqk",
           "biome_luq9gtqk",
           "biome_luq9gtqk",
@@ -332,52 +332,6 @@
           "biome_luq9f6n0",
           "biome_luq9f6n0",
           "biome_luq9f6n0"
-        ],
-        [
-          "biome_luq9f6n0",
-          "biome_luq9f6n0",
-          "biome_luq9f6n0",
-          "biome_luq9f6n0",
-          "biome_luq9f6n0",
-          "biome_luq9f6n0"
-        ]
-      ]
-    },
-    {
-      "key": "layout_luqg6d49",
-      "name": "Nether High",
-      "array": [
-        [
-          "biome_luq9fmcn",
-          "biome_luq9fmcn",
-          "biome_luq9fmcn",
-          "biome_luq9fmcn",
-          "biome_luq9fmcn",
-          "biome_luq9fmcn"
-        ],
-        [
-          "biome_luq9fmcn",
-          "biome_luq9fmcn",
-          "biome_luq9fmcn",
-          "biome_luq9fmcn",
-          "biome_luq9fmcn",
-          "biome_luq9fmcn"
-        ],
-        [
-          "biome_luq9f6n0",
-          "biome_luq9gtqk",
-          "biome_luq9gtqk",
-          "biome_luq9gtqk",
-          "biome_luq9gtqk",
-          "biome_luq9fmcn"
-        ],
-        [
-          "biome_luq9f6n0",
-          "biome_luq9gtqk",
-          "biome_luq9gtqk",
-          "biome_luq9gtqk",
-          "biome_luq9gtqk",
-          "biome_luq9gtqk"
         ],
         [
           "biome_luq9f6n0",
@@ -418,20 +372,66 @@
           "biome_luq9tfmp"
         ],
         [
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp"
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0"
         ],
         [
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp"
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0"
+        ]
+      ]
+    },
+    {
+      "key": "layout_luqg6d49",
+      "name": "Nether High",
+      "array": [
+        [
+          "biome_luq9fmcn",
+          "biome_luq9fmcn",
+          "biome_luq9fmcn",
+          "biome_luq9fmcn",
+          "biome_luq9fmcn",
+          "biome_luq9fmcn"
+        ],
+        [
+          "biome_luq9gtqk",
+          "biome_luq9gtqk",
+          "biome_luq9gtqk",
+          "biome_luq9gtqk",
+          "biome_luq9fmcn",
+          "biome_luq9fmcn"
+        ],
+        [
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9gtqk",
+          "biome_luq9gtqk"
+        ],
+        [
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0"
+        ],
+        [
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0"
         ]
       ]
     },
@@ -448,36 +448,36 @@
           "biome_luquvbpl"
         ],
         [
-          "biome_luquvbpl",
-          "biome_luquvbpl",
-          "biome_luquvbpl",
-          "biome_luquvbpl",
+          "biome_luq9tfmp",
+          "biome_luq9tfmp",
+          "biome_luq9tfmp",
+          "biome_luq9tfmp",
           "biome_luquvbpl",
           "biome_luquvbpl"
         ],
         [
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luquvbpl"
-        ],
-        [
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
           "biome_luq9tfmp",
           "biome_luq9tfmp"
         ],
         [
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp",
-          "biome_luq9tfmp"
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0"
+        ],
+        [
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0"
         ]
       ]
     },
@@ -1122,6 +1122,84 @@
       ]
     },
     {
+      "key": "layout_lusa22eb",
+      "name": "Under Nether",
+      "array": [
+        [
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd"
+        ],
+        [
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd",
+          "biome_luaikzcd"
+        ],
+        [
+          "layout_luquw70z",
+          "layout_luquw70z",
+          "layout_luquw70z",
+          "layout_luquw70z",
+          "layout_luquw70z",
+          "layout_luquw70z",
+          "layout_luquw70z"
+        ],
+        [
+          "layout_luquw70z",
+          "layout_luquw70z",
+          "layout_luquw70z",
+          "layout_luquw70z",
+          "layout_luquw70z",
+          "layout_luquw70z",
+          "layout_luquw70z"
+        ],
+        [
+          "layout_luquw70z/layout_luquyfwo",
+          "layout_luquw70z/layout_luquyfwo",
+          "layout_luquw70z/layout_luquyfwo",
+          "layout_luquw70z/layout_luquyfwo",
+          "layout_luquw70z/layout_luquyfwo",
+          "layout_luquw70z/layout_luquw70z",
+          "layout_luquw70z/layout_luquyfwo"
+        ],
+        [
+          "biome_luq9f6n0",
+          "layout_luquyfwo",
+          "layout_luquyfwo",
+          "layout_luquyfwo",
+          "layout_luquyfwo",
+          "layout_luquyfwo",
+          "layout_luquyfwo"
+        ],
+        [
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "layout_luquyfwo",
+          "layout_luquyfwo",
+          "layout_luquyfwo",
+          "layout_luquyfwo",
+          "layout_luquyfwo"
+        ],
+        [
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "biome_luq9f6n0",
+          "layout_luquyfwo",
+          "layout_luquyfwo",
+          "layout_luquyfwo",
+          "layout_luquyfwo"
+        ]
+      ]
+    },
+    {
       "key": "layout_lus4bgu5",
       "name": "Deepdark or Cave or Void",
       "array": [
@@ -1163,21 +1241,21 @@
         ],
         [
           "biome_luq9rvcc",
-          "layout_luqg1d2i",
-          "layout_luqg1d2i",
-          "layout_luqg1d2i",
-          "layout_luqg1d2i",
-          "layout_luqg1d2i",
-          "layout_luqg1d2i"
+          "layout_lurmmiqa",
+          "layout_lurmmiqa",
+          "layout_lurmmiqa",
+          "layout_lurmmiqa",
+          "layout_lurmmiqa",
+          "layout_lurmmiqa"
         ],
         [
           "biome_luq9rvcc",
           "biome_luq9rvcc",
-          "layout_luqg1d2i",
-          "layout_luqg1d2i",
-          "layout_luqg1d2i",
-          "layout_luqg1d2i",
-          "layout_luqg1d2i"
+          "layout_lurmmiqa",
+          "layout_lurmmiqa",
+          "layout_lurmmiqa",
+          "layout_lurmmiqa",
+          "layout_lurmmiqa"
         ],
         [
           "biome_luq9rvcc",
@@ -1249,7 +1327,7 @@
     {
       "key": "biome_luq9f6n0",
       "name": "amalgam:nether/basalt",
-      "color": "#897070"
+      "color": "#4f4f4f"
     },
     {
       "key": "biome_luq9fmcn",
@@ -1268,17 +1346,17 @@
     },
     {
       "key": "biome_luq9pwxp",
-      "name": "amalgam:under/lush",
+      "name": "amalgam:under/overworld/lush",
       "color": "#90aa83"
     },
     {
       "key": "biome_luq9r5rz",
-      "name": "amalgam:under/dripstone",
+      "name": "amalgam:under/overworld/dripstone",
       "color": "#6c6b51"
     },
     {
       "key": "biome_luq9rvcc",
-      "name": "amalgam:under/deep_dark",
+      "name": "amalgam:under/overworld/deep_dark",
       "color": "#273c7c"
     },
     {
@@ -1288,12 +1366,12 @@
     },
     {
       "key": "biome_luq9tfmp",
-      "name": "amalgam:under/nether",
+      "name": "amalgam:under/nether/wastes",
       "color": "#750000"
     },
     {
       "key": "biome_luquvbpl",
-      "name": "amalgam:under/nether_forest",
+      "name": "amalgam:under/nether/forest",
       "color": "#4a4d7d"
     }
   ],

@@ -1,6 +1,7 @@
 {
   "temperature": 2,
   "downfall": 0,
+  "has_precipitation": false,
   "effects": {
     "sky_color": 7156017,
     "fog_color": 3343107,
@@ -97,6 +98,5 @@
       "minecraft:crimson_fungi",
       "minecraft:crimson_forest_vegetation"
     ]
-  ],
-  "has_precipitation": false
+  ]
 }

@@ -42,9 +42,9 @@
       "shift_y": "minecraft:y",
       "shift_z": "minecraft:shift_z"
     },
-    "continents": "amalgam:continentalness",
+    "continents": "minecraft:overworld/continents",
     "erosion": "minecraft:overworld/erosion",
-    "depth": "amalgam:depth",
+    "depth": "minecraft:overworld/depth",
     "ridges": "minecraft:overworld/ridges",
     "initial_density_without_jaggedness": {
       "type": "minecraft:add",
